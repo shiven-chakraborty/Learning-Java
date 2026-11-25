@@ -27,7 +27,11 @@ public class Errorhandling {
         }
         catch (ArrayIndexOutOfBoundsException e)
         {
-            System.err.println("Array index out of bounds");
+            System.out.println("Array index out of bounds");
+        }
+        finally
+        {
+            System.out.println("This will always run");
         }
 
         System.out.println("Program run successfully");
